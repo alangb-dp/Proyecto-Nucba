@@ -7,22 +7,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nucba NFT</title>
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/mediaqueries.css">
 </head>
 
 <body>
+
     <header>
         <img src="/assets/img/logo.png" alt="Logo Nucba" class="logo">
         <nav class="navbar">
+
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/img/menu.png" alt="icono menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
             <ul class="navbar-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Descubre</a></li>
                 <li><a href="#">BTC</a></li>
                 <li><a href="#">Youtube</a></li>
                 <li><a href="#">Contactenos</a></li>
+
             </ul>
-            <img src="/assets/img/cart-icon.svg" alt="Carrito de compras" class="cart-icon">
+
+            <label for="cart-toggle" class="cart-label">
+                <img src="./assets/img/cart-icon.svg" alt="carrito de compras" class="cart-icon">
+            </label>
+             <input type="checkbox" id="cart-toggle">
+             <div class="cart">
+                <h2>Tus NFTs</h2>
+
+
+                <div class="cart-item">
+                    <img src="./assets/img/cart/cart-img.png" alt="un producto">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Messi</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <spam class="item-price">4.8 ETH</spam>
+                    </div>
+                    <div class="item-handler">
+                        <spam class="quantity-handler down">-</spam>
+                        <spam class="item-quantity">1</spam>
+                        <spam class="quantity-handler up">+</spam>
+
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="./assets/img/cart/cart-img.png" alt="un producto">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Messi</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <spam class="item-price">4.8 ETH</spam>
+                    </div>
+                    <div class="item-handler">
+                        <spam class="quantity-handler down">-</spam>
+                        <spam class="item-quantity">1</spam>
+                        <spam class="quantity-handler up">+</spam>
+
+                    </div>
+                </div>
+
+
+                <div class="cart-item">
+                    <img src="./assets/img/cart/cart-img.png" alt="un producto">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Messi</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <spam class="item-price">4.8 ETH</spam>
+                    </div>
+                    <div class="item-handler">
+                        <spam class="quantity-handler down">-</spam>
+                        <spam class="item-quantity">1</spam>
+                        <spam class="quantity-handler up">+</spam>
+
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="./assets/img/cart/cart-img.png" alt="un producto">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Messi</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <spam class="item-price">4.8 ETH</spam>
+                    </div>
+                    <div class="item-handler">
+                        <spam class="quantity-handler down">-</spam>
+                        <spam class="item-quantity">1</spam>
+                        <spam class="quantity-handler up">+</spam>
+
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="./assets/img/cart/cart-img.png" alt="un producto">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Messi</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <spam class="item-price">4.8 ETH</spam>
+                    </div>
+                    <div class="item-handler">
+                        <spam class="quantity-handler down">-</spam>
+                        <spam class="item-quantity">1</spam>
+                        <spam class="quantity-handler up">+</spam>
+
+                    </div>
+                </div>
+
+                <span class="divider"> </span>
+
+                <div class="cart-total">
+                    <p>Total:</p>
+                    <span>18.3 ETH</span>
+                </div>
+                <button class="btn-add">Comprar</button>
+             </div>
         </nav>
     </header>
+
 
     <main>
         <section id="hero">
@@ -59,6 +161,7 @@
                 </div>
             </div>
         </section>
+    
 
         <section id="info">
             <h2>Crea, Aprende y Comparte los NFTS</h2>
